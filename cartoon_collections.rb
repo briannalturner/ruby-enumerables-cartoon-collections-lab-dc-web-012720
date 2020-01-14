@@ -5,7 +5,7 @@ end
 
 
 def summon_captain_planet(array)
-  array.collect()
+  array.collect { |array| array + !
 end
 
 

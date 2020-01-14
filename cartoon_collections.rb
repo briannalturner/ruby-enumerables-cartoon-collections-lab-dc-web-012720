@@ -5,7 +5,7 @@ end
 
 
 def summon_captain_planet(array)
-  ex_array = array.each_with_index { |item, index| '#{array[index]}!'}
+  ex_array = array.collect { |array| }
   cap_arr = ex_array.collect { |array| array.capitalize }
   cap_arr
 end

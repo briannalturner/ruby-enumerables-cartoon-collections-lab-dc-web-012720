@@ -15,7 +15,7 @@ end
 def long_planeteer_calls(array)
   index = 0
   while index < array.length do
-    array.any? { |array| array[index].length > 4 }
+    array.any? { |item| array[index].length > 4 }
     index += 1
   end
 end

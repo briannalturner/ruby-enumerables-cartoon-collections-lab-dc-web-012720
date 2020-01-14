@@ -9,13 +9,11 @@ def summon_captain_planet(array)
   cap_arr = ex_array.collect { |array| array.capitalize }
   cap_arr
 end
-planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-p summon_captain_planet(planeteer_calls)
 
 
 
-def long_planeteer_calls# code an argument here
-  # Your code hereß
+def long_planeteer_calls(array)
+  
 end
 
 

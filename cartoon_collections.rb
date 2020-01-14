@@ -32,7 +32,7 @@ def find_the_cheese(array)
   while index < array.length do
     inner_index = 0
     while inner_index < cheese_types do
-      array.detect { |item| array[index] == cheese_types }
+      array.detect { |item| array[index] == cheese_types[inner_index] }
       inner_index += 1 
     end
     index += 1 

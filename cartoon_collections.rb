@@ -23,7 +23,7 @@ def long_planeteer_calls(array)
   end
   false
 end
-arr = ["puff", "go", "two"]
+arr = ["puff", "go", "two", 'basket']
 p long_planeteer_calls(arr)
 
 

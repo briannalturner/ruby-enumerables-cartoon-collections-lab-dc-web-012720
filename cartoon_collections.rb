@@ -9,6 +9,8 @@ def summon_captain_planet(array)
   cap_arr = array.collect { |array| array.capitalize }
   cap_arr
 end
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+summon_captain_planet(planeteer_calls)
 
 
 

@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(array)
   ex_array = array.each_with_index { |item, index| '#{array[index]}!'}
-  cap_arr = array.collect { |array| array.capitalize }
+  cap_arr = ex_array.collect { |array| array.capitalize }
   cap_arr
 end
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]

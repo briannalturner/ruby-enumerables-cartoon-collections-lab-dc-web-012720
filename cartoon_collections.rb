@@ -20,6 +20,7 @@ def long_planeteer_calls(array)
     else
     index += 1
   end
+  end
 end
 arr = ["puff", "go", "two"]
 p long_planeteer_calls(arr)

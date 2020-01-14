@@ -30,7 +30,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   index = 0 
   while index < array.length do
-    array.detect { |item| array[i] == cheese_types }
+    array.detect { |item| array[index] == cheese_types }
     index += 1 
   end
 end

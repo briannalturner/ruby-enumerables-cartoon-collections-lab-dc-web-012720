@@ -10,7 +10,7 @@ def summon_captain_planet(array)
   cap_arr
 end
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-summon_captain_planet(planeteer_calls)
+p summon_captain_planet(planeteer_calls)
 
 
 
